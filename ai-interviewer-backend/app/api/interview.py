@@ -6,6 +6,10 @@ from fastapi import status
 from app.core.gpt_client import generate_greeting, generate_followup, generate_thank_you
 from app.models.schema import UserResponseRequest, AskRequest, InterviewState
 from app.core.config import MAX_INTERVIEW_QUESTIONS
+from app.core.mongo import transcripts_collection
+from uuid import uuid4
+from datetime import datetime
+
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -60,7 +64,7 @@ def start_interview():
 
 
 @router.post("/ask")
-def ask_question(request: AskRequest):
+async def ask_question(request: AskRequest):
     try:
         # Load context
         with open("app/core/data/resume.json", "r") as f:
@@ -69,9 +73,8 @@ def ask_question(request: AskRequest):
         with open("app/core/data/job_description.txt", "r") as f:
             jd = f.read()
 
-        # Validate interview state
+        # Check end of interview
         if request.state.question_count >= MAX_INTERVIEW_QUESTIONS:
-            # End of interview
             thank_you_message = generate_thank_you(resume.get("name", "Candidate"))
             return {
                 "question": thank_you_message,
@@ -82,7 +85,7 @@ def ask_question(request: AskRequest):
                 }
             }
 
-        # Generate follow-up question
+        # Generate next question
         followup = generate_followup(
             resume=json.dumps(resume, indent=2),
             job_description=jd,
@@ -95,6 +98,14 @@ def ask_question(request: AskRequest):
             {"role": "user", "content": request.user_response},
             {"role": "assistant", "content": followup}
         ]
+
+        # ✅ Save to MongoDB
+        await transcripts_collection.insert_one({
+            "interview_id": str(uuid4()),
+            "timestamp": datetime.utcnow().isoformat(),
+            "question_count": request.state.question_count + 1,
+            "conversation": new_conversation_history
+        })
 
         return {
             "question": followup,
