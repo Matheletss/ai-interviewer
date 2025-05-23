@@ -1,0 +1,51 @@
+{
+    "name": "Tim Cook",
+    "email": "t.cook@email.com",
+    "experience": [
+      {
+        "title": "Customer Service Representative",
+        "company": "T-Mobile",
+        "location": "Seattle, WA",
+        "duration": "2023 - current",
+        "highlights": [
+          "Provided on-call support to a minimum of 71 customers daily, resolving 92% of issues on the first call.",
+          "Implemented a C++ script to automate CRM data entry tasks, reducing the time needed to create reports by 39 minutes.",
+          "Prevented escalations for 8 billing issues each month via quick resolutions.",
+          "Managed high-volume inbound calls during peak hours, maintaining an average response time of under 44 seconds."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "PixelPilot",
+        "role": "UI/UX Designer",
+        "duration": "2022 - 2023",
+        "highlights": [
+          "Designed and prototyped a mobile app interface for a drone control application, gaining an 87% user engagement rate during the testing phase.",
+          "Held multiple user testing sessions, gathering feedback to refine the app’s user interface and decrease post-launch bug reports by 41%.",
+          "Used Eclipse IDE to debug the mobile app, fixing critical issues and releasing the application 3 weeks ahead of schedule.",
+          "Leveraged MongoDB for storing user data and drone records, lowering data retrieval speed by 6 minutes."
+        ]
+      },
+      {
+        "name": "Blockchain",
+        "role": "Seminar Attendee",
+        "duration": "November 2021",
+        "highlights": [
+          "Attended a comprehensive blockchain technology seminar with 175+ attendees, understanding its applications in finance and healthcare.",
+          "Participated in hands-on workshops on blockchain, achieving a 9.5/10 report score by industry experts for Google Cloud Platform integration.",
+          "Optimized blockchain deployments on OpenShift, using seminar knowledge to expedite deployment time by 4 days.",
+          "Created a proof-of-stake smart contract for a healthcare setting, reducing data processing time by 17 minutes compared to industry standards."
+        ]
+      }
+    ],
+    "skills": ["C++", "MongoDB", "OpenShift", "Eclipse", "Mercurial"],
+    "education": {
+      "degree": "Bachelor of Science",
+      "major": "Computer Science",
+      "university": "University of Washington",
+      "duration": "2021 - current",
+      "location": "Seattle, WA"
+    }
+  }
+  

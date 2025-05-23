@@ -1,0 +1,28 @@
+Quadeye is a leading algorithmic trading firm with its presence across all global exchanges. Our engineers translate their understanding of financial markets into automated trading strategies across multiple asset classes & instruments using advanced mathematical techniques. We are talented entrepreneurial individuals with a knack of numbers and genius coders who love to design resilient and robust trading systems.
+
+Quadeye is a place of deep curiosity, high expectations, no-hierarchy and constant collaboration with some of the smartest engineers who are empowered to innovate with the help of best resources, mentors and technology.
+
+We are looking to hire Software Developer-Python having 0- 2 years of work experience to work with our product team for Quadeye's High-Frequency Trading environment.
+
+Find out more about what we do, our history, and how you could be a part of our future at https://www.quadeye.com/about-us/.
+
+Key Responsibilities
+
+Understanding the problems and issues related to the smooth operations of our processes and software.
+Coming up with good engineering solutions for problems.
+Implementing the code for creating and modifying the software.
+Testing the code written thoroughly.
+Deploying the code in production.
+Overviewing the code in production and resolving the arising issues.
+
+Experience and Qualification 
+
+Engineering degree in Computer Science (preferred) or any other discipline
+Ability to work in a fast-paced environment managing multiple high-priority projects.
+Working with Python and bash on a regular basis
+Advantageous if the candidate has familiarity with pandas/NumPy.
+Strong Knowledge of Shell and Python scripting
+Working knowledge of Linux
+Excellent problem-solving abilities
+Good written and oral communication skills
+Willingness to learn and work on new technologies.
