@@ -24,6 +24,7 @@ ai-interviewer/
 ## ⚙️ Prerequisites
 
 Install these before running:
+install the requirements.txt file
 
 ### 🧰 System Requirements
 
@@ -81,6 +82,7 @@ Inside `.env`:
 
 ```env
 SARVAM_API_KEY=your_sarvam_api_key_here
+OPENAI_API_KEY=your_open_api_key
 MONGO_URI=mongodb://localhost:27017
 ```
 
