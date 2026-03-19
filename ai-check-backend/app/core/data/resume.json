@@ -1,0 +1,102 @@
+{
+  "name": "Aditya Raj Gupta",
+  "email": "aditayrajcurious@gmail.com",
+  "mobile": "+91 9031505975",
+  "links": {
+    "linkedin": "aditya-raj-gupta-41b8092b9",
+    "github": "https://github.com/CuriousAd",
+    "codeforces": "https://codeforces.com/profile/CuriousAditya",
+    "codechef": "https://www.codechef.com/users/aditya_curio24",
+    "leetcode": "https://leetcode.com/u/AdityaCurio24/",
+    "geeksforgeeks": "https://www.geeksforgeeks.org/user/adityarajjrgz/"
+  },
+  "education": [
+    {
+      "degree": "Integrated M.Sc.",
+      "major": "Mathematics & Computing",
+      "university": "Birla Institute of Technology, Mesra",
+      "duration": "Expected Jun 2027",
+      "gpa": "8.6/10",
+      "location": "Ranchi, India"
+    },
+    {
+      "degree": "B.Sc.",
+      "major": "Data Science",
+      "university": "IIT Madras",
+      "duration": "Expected Jun 2027",
+      "gpa": "7.2/10",
+      "location": "India"
+    },
+    {
+      "degree": "Class XII (CBSE)",
+      "school": "D.A.V. Public School",
+      "score": "87.6%",
+      "year": "2021",
+      "location": "India"
+    },
+    {
+      "degree": "Class X (CBSE)",
+      "school": "St. Mary’s English High School",
+      "score": "91.4%",
+      "year": "2019",
+      "location": "India"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Co-Founder",
+      "company": "Emplo AI (AI-Powered Hiring Platform)",
+      "location": "India",
+      "duration": "Feb 2025 – Present",
+      "highlights": [
+        "Designed and deployed an AI hiring funnel with resume parsing, scoring, and proctored interviews.",
+        "Processed 100+ resumes in pilot tests, reducing candidate screening time by 60%.",
+        "Leading a 3-member tech team; integrated FastAPI services and automated pipelines."
+      ]
+    },
+    {
+      "title": "Data Analyst Intern",
+      "company": "Tata Steel",
+      "location": "India",
+      "duration": "Jul 2024 – Aug 2024",
+      "highlights": [
+        "Analyzed learning data of employees for training efficiency and engagement.",
+        "Built Tableau dashboards tracking 20+ KPIs, improving reporting accuracy by 15%.",
+        "Delivered insights that guided department-level training strategy."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "TDS Virtual TA – IITM Data Science Project",
+      "duration": "Jun 2025",
+      "highlights": [
+        "Built semantic search API over scraped Discourse + HTML content using FastAPI + SQLite.",
+        "Indexed 1,000+ Markdown files enabling 80% faster student query resolution.",
+        "Deployed API on Vercel for live student use."
+      ]
+    },
+    {
+      "name": "Biomedical Image Encryption and Decryption",
+      "duration": "Feb 2025 – Apr 2025",
+      "highlights": [
+        "Implemented chaos-based encryption for secure biomedical image transmission.",
+        "Achieved 95%+ pixel correlation reduction using Python + MATLAB."
+      ]
+    }
+  ],
+  "skills": {
+    "programming": ["C/C++", "Python", "Java", "JavaScript", "HTML"],
+    "frameworks_libraries": ["NumPy", "Pandas", "Matplotlib", "Flask", "FastAPI"],
+    "databases": ["MySQL", "PostgreSQL", "SQLite"],
+    "mathematical_tools": ["MATLAB", "Lingo", "Tora"],
+    "tools": ["Git", "VS Code", "Jupyter", "Kaggle", "Tableau", "MS Excel", "Power BI"],
+    "core_competencies": ["Data Analysis", "Machine Learning", "DSA", "OOP", "Problem Solving", "Team Collaboration"]
+  },
+  "achievements": [
+    "Solved 350+ Data Structures & Algorithms problems across Codeforces, CodeChef, LeetCode, GeeksforGeeks.",
+    "Head of Tech, Society for Data Science, BIT Mesra.",
+    "Featured among Top 200 teams in College Youth Ideathon 2025, IIT Delhi.",
+    "Winner, IPL Auction – E-Summit 2024, BIT Mesra."
+  ]
+}
