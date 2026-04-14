@@ -19,3 +19,8 @@ node_modules/
 # OS
 .DS_Store
 Thumbs.db
+
+# Google Cloud credentials
+credentials/
+*-service-account*.json
+client_secret*.json
